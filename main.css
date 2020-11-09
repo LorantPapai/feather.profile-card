@@ -1,1 +1,25 @@
-.
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(assets/background-img.jpg);
+  /*bg-img absolute src: https://upload.wikimedia.org/wikipedia/commons/4/4f/Mercedes_W123_T-Modell_front_20100630.jpg*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  font-family: "Raleway", "Kabel", "Helmut", "Ealing", "Relish", "Arial";
+  color: #222222;
+}
+
