@@ -31,7 +31,16 @@ body {
   border-radius: 1.25%;
 }
 
+#space-box {
+  background-color: aliceblue;
+  float: right;
+}
+
 .headline {
+  background-color: red;
+  float: right;
+  margin-top: 14%;
+
 }
 
 .profile-img {
@@ -47,4 +56,34 @@ body {
 .profile-img:hover {
   transform: scale(1.1);
   filter: grayscale(5%);
+}
+.about {
+  float: right;
+  background-color: aqua;
+  text-align: justify;
+  width: 55%;
+  float: right;
+  
+.links {
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#twitter:hover {
+  color: #00acee;
+}
+
+#behace:hover {
+  color: #053eff;
+}
+
+#insta:hover {
+  color: #8a3ab9;
 }
